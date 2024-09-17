@@ -39,17 +39,18 @@
   background: linear-gradient(264deg, #ff9a9e -5.09%, #fad0c4 100%);
   cursor: pointer;
 }
-.hero-resume{
+.hero-resume .resume-link{
   padding: 25px 75px;
   border-radius: 50px;
+  color:white;
   border: 2px solid white;
   cursor: pointer;
 }
 .hero-connect:hover{
   border: 2px solid white;
 }
-.hero-resume:hover{
-  border-color: #b415ff;
+.hero-resume .resume-link:hover{
+  border-color: #ff9a9e;
 }
 @media(max-width:768px){
   .hero img{

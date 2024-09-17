@@ -10,7 +10,14 @@ const Hero = () => {
       <p>I'm graduating from UC Berkeley in Fall 2024 with a major in Statistics. I'm passionate about machine learning and am looking for full-time opportunities as an ML Engineer.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a href="https://docs.google.com/document/d/1LL3-gbS_LZ2A8fq2fA1dnzECFF5Q_5yd/edit?usp=sharing&ouid=110649335848485115709&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-link">
+              My Resume
+            </a>
+        </div>
       </div>
     </div>
   )
