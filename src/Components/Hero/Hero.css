@@ -32,25 +32,52 @@
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .hero-connect{
   padding: 25px 45px;
   border-radius: 50px;
   background: linear-gradient(264deg, #ff9a9e -5.09%, #fad0c4 100%);
   cursor: pointer;
+  width: 240px;
+  display: flex;
+  justify-content: center;
 }
-.hero-resume .resume-link{
-  padding: 25px 75px;
+.hero-resume {
+  padding: 25px 45px;
   border-radius: 50px;
-  color:white;
   border: 2px solid white;
+  color: white;
   cursor: pointer;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+.hero-resume a {
+  color: white;
+}
+.hero-linkedin {
+  padding: 25px 45px;
+  border-radius: 50px;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+.hero-linkedin a {
+  color: white;
 }
 .hero-connect:hover{
   border: 2px solid white;
 }
-.hero-resume .resume-link:hover{
+.hero-resume:hover{
   border-color: #ff9a9e;
+}
+.hero-linkedin:hover{
+  border-color: #ff9a9e; 
 }
 @media(max-width:768px){
   .hero img{
@@ -69,17 +96,22 @@
     margin: 10px 0px;
   }
   .hero-action{
+    flex-direction: column;
     gap: 16px;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 50px;
   }
   .hero-connect{
     padding: 20px 30px;
     border-radius: 40px;
+    width: 250px;
+    margin-bottom: 15px;
   }
-  .hero-resume{
-    padding: 20px 50px;
+  .hero-resume,
+  .hero-linkedin{
+    padding: 20px 30px;
     border-radius: 40px;
+    width: 250px;
+    margin-bottom: 15px;
   }
 }

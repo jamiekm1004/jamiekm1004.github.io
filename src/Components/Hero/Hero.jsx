@@ -18,6 +18,12 @@ const Hero = () => {
               My Resume
             </a>
         </div>
+        <div className="hero-linkedin">
+          <a href="https://www.linkedin.com/in/jamie-kim-stat"
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="linkedin-button">LinkedIn</a>
+        </div>
       </div>
     </div>
   )
