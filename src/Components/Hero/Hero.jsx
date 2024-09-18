@@ -19,7 +19,7 @@ const Hero = () => {
             </a>
         </div>
         <div className="hero-linkedin">
-          <a href="https://www.linkedin.com/in/jamie-kim-stat"
+          <a href="https://www.linkedin.com/in/jamie-kim-stats"
           target="_blank" 
           rel="noopener noreferrer"
           className="linkedin-button">LinkedIn</a>
