@@ -16,8 +16,8 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>I'm a final-year student at UC Berkeley, Before pursuing my degree, I proudly served in the U.S. Navy for 7 years, where I developed strong leadership, teamwork, and problem-solving skills.</p>
-            <p>Now, I combine those experiences with my passion for data science, machine learning, and web development. I’ve built a solid foundation in Python, R, Pandas, and TensorFlow. I’m excited to apply my skills to real-world problems.</p>
+            <p>I recently graduated from UC Berkeley with a degree in Statistics. Before pursuing my degree, I proudly served in the U.S. Navy for 7 years, where I developed strong leadership, teamwork, and problem-solving skills.</p>
+            <p>Now, I bring those experiences to data science, machine learning, and web development. With a solid foundation in Python, R, Pandas, and TensorFlow, and a proven ability to learn quickly, I’m passionate about solving real-world problems through data-driven insights.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>Python & R</p><hr style={{width:"90%"}}/></div>

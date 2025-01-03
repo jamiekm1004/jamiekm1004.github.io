@@ -7,7 +7,7 @@ const Hero = () => {
     <div id='home' className='hero'>
       <img src={profile_img} alt="" />
       <h1><span>I'm Jamie Kim</span></h1>
-      <p>I'm graduating from UC Berkeley in Fall 2024 with a major in Statistics. I'm passionate about machine learning and am looking for full-time opportunities as an ML Engineer.</p>
+      <p>I graduated from UC Berkeley this December 2024 with a major in Statistics. I'm passionate about data analysis, data modeling, and machine learning, and I’m actively seeking full-time opportunities in these areas.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <div className="hero-resume">
