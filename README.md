@@ -48,6 +48,4 @@ For any inquiries or feedback, feel free to reach out:
 
 ---
 
-## License
 
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
