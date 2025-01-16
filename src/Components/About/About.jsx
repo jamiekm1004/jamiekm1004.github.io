@@ -17,10 +17,11 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>I recently graduated from UC Berkeley with a degree in Statistics. Before pursuing my degree, I proudly served in the U.S. Navy for 7 years, where I developed strong leadership, teamwork, and problem-solving skills.</p>
-            <p>Now, I bring those experiences to data science, machine learning, and web development. With a solid foundation in Python, R, Pandas, and TensorFlow, and a proven ability to learn quickly, I’m passionate about solving real-world problems through data-driven insights.</p>
+            <p>Now, I bring those experiences to data science, database management, machine learning, and web development. With a solid foundation in Python, R, SQL, Pandas, and TensorFlow, and a proven ability to learn quickly, I’m passionate about solving real-world problems through data-driven insights.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>Python & R</p><hr style={{width:"90%"}}/></div>
+            <div className="about-skill"><p>SQL</p><hr style={{width:"80%"}}/></div>
             <div className="about-skill"><p>Pandas & NumPy </p><hr style={{width:"70%"}}/></div>
             <div className="about-skill"><p>TensorFlow</p><hr style={{width:"70%"}}/></div>
             <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
@@ -36,7 +37,7 @@ const About = () => {
           </div>
           <hr />
           <div className="about-achievement">
-            <h1>3+</h1>
+            <h1>4+</h1>
             <p>PROJECTS COMPLITED</p>
           </div> 
         </div>
