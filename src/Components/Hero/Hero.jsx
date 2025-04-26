@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <div className="hero-resume">
-          <a href="https://docs.google.com/document/d/1LL3-gbS_LZ2A8fq2fA1dnzECFF5Q_5yd/edit?usp=sharing&ouid=110649335848485115709&rtpof=true&sd=true"
+          <a href="https://docs.google.com/document/d/1Ctg5QsvLfwWDdW3TOtyA5GwJGZ4sGNGYx6fj6xQ9MDE/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="resume-link">
